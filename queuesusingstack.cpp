@@ -1,7 +1,5 @@
 //Implement Queue using Stacks
-#include<stack>
-#include <bits/stdc++.h>
-using namespace std;
+
 class MyQueue {
     stack<int> st1;
     stack<int> st2;
