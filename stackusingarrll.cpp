@@ -1,6 +1,4 @@
 //Stack implementation using array and link list
-#include <bits/stdc++.h>
-using namespace std;
 
 class Node{ 
     public:
