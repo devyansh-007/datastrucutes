@@ -1,5 +1,6 @@
 // reverse linked list
-
+#include <bits/stdc++.h>
+using namespace std;
 void Reverse(Node* head){
     if(head==NULL || head->next==NULL){
         return head;
