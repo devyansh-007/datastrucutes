@@ -22,12 +22,12 @@ indexes
  }
  return output;         
  }
- //next smaller element
+
  vector<int> nse(vector<int> &arr){
  int n=arr.size();
  vector<int> output(n,-1);
  stack<int> st;
-//indexes
+
  st.push(0);
  for (int i = 0; i < n; i++)
  {
