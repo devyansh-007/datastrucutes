@@ -1,6 +1,6 @@
 //Take input in 2 Dimensional Array - Marks in 5 Subjects
 //Calculate total of every student and average of every subject
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
