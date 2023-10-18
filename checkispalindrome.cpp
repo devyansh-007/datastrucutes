@@ -1,4 +1,6 @@
 //Check if a link list is palindrome or not
+#include <iostream>
+using namespace std;
 bool isPalindrome(ListNode* head) {
         ListNode* temp=new ListNode(head->val);
         ListNode* temp2=head->next;
