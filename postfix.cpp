@@ -1,6 +1,5 @@
 //Postfix
-#include <bits/stdc++.h>
-using namespace std;
+
 int calc(int v1,int v2,char op){
     if (op=='^')
     {
@@ -37,9 +36,4 @@ subtracting '0' to get original value of the number
     }
     }
     return st.top();
-}
-int main(){
-    string str="231*+9-";
-    cout<<evaluate(str);
-    return 0;
 }
