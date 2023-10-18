@@ -1,4 +1,6 @@
 //NSE ,NGE
+#include <bits/stdc++.h>
+using namespace std;
  vector<int> nge(vector<int> &arr){
  int n=arr.size();
  vector<int> output(n,-1);
