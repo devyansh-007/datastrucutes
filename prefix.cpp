@@ -1,4 +1,6 @@
 //Prefix
+#include <bits/stdc++.h>
+using namespace std;
 int calc(int v1,int v2,char op){
     if (op=='^')
     {
